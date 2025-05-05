@@ -11,22 +11,18 @@ To write a Python program that merges **two dictionaries** and combines their ke
 
 ## 🧾 Program
 ```
-def merge(dict1, dict2):
-    return {**dict1, **dict2}
+DEVELOPED BY: Magesh C M
+REGISTER NO: 212223220053
 
-dict1 = {'a': 1, 'b': 2}
-dict2 = {'b': 3, 'c': 4}
-
-merged_dict = merge(dict1, dict2)
-print("Merged dictionary:", merged_dict)
+a=eval(input())
+b=eval(input())
+c=a.copy()
+c.update(b)
+print(c)
 ```
 
 ## Output
-```
-Merged dictionary: {'a': 1, 'b': 3, 'c': 4}
-```
+![image](https://github.com/user-attachments/assets/73844d5d-fea7-4dff-8ee5-c2483641e2c0)
 
 ## Result
-
-The program successfully merges two dictionaries using the unpacking operator, with overlapping keys in dict2 overwriting those in dict1.
-
+Thus the program executed successfully.
