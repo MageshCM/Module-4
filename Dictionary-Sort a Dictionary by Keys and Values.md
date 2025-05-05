@@ -31,24 +31,20 @@ To write a Python program that sorts a dictionary's:
 
 ## 🧪Program
 ```
-data = {'banana': 'yellow', 'cherry': 'red', 'apple': 'green', 'blueberry': 'blue'}
+DEVELOPED BY: Magesh C M
+REGISTER NO: 212223220053
 
-sorted_by_keys = dict(sorted(data.items()))
-sorted_by_values = dict(sorted(data.items(), key=lambda item: item[1]))
-
-print("Original dictionary:", data)
-print("Dictionary sorted by keys:", sorted_by_keys)
-print("Dictionary sorted by values:", sorted_by_values)
+input_dict = {2: 56, 1: 2, 5: 12, 4: 24, 6: 18, 3: 323}
+sorted_items = sorted(input_dict.items())
+print("Keys and Values sorted in alphabetical order by the key")
+for key, value in sorted_items:
+    print(f"({key}, {value})", end=' ')
 ```
 
 ## Sample Output
-```
-Original dictionary: {'banana': 'yellow', 'cherry': 'red', 'apple': 'green', 'blueberry': 'blue'}
-Dictionary sorted by keys: {'apple': 'green', 'banana': 'yellow', 'blueberry': 'blue', 'cherry': 'red'}
-Dictionary sorted by values: {'blueberry': 'blue', 'apple': 'green', 'cherry': 'red', 'banana': 'yellow'}
-```
+![image](https://github.com/user-attachments/assets/b38f43b5-8014-4748-bc5d-24ae8167f0a3)
+![image](https://github.com/user-attachments/assets/daca5cff-0653-4587-a017-9100a4137da1)
+
 
 ## Result
-
-The program successfully sorts the dictionary by its keys and values in alphabetical order and prints both sorted versions along with the original dictionary.
-
+Thus the program executed successfully.
